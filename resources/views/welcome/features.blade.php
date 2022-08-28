@@ -9,86 +9,20 @@
             <rect width="404" height="784" fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)" />
         </svg>
 
-        <div class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center">
-            <div class="relative">
-                <x-h4>
-                    Featured components
-                </x-h4>
+        <div class="sm:text-center md:max-w-2xl md:mx-auto">
+            <x-h4>
+                Featured Image & Video components
+            </x-h4>
+        </div>
 
-                <x-p>
-                    Whether it's a countdown timer or a map with markers. A wysiwyg editor or rendering Markdown. We offer components for a wide range of use cases.
-                </x-p>
+        <div class="relative mt-4 lg:mt-4 lg:items-center">
 
-                <ul class="mt-10">
-                    <li>
-                        <div class="flex">
-                            <div class="flex-shrink-0">
-                                <div class="flex items-center justify-center h-12 w-12 rounded-md bg-scarlet-500 text-white">
-                                    <a href="{{ route('docs', 'countdown') }}">
-                                        <x-heroicon-o-clock class="h-6 w-6" />
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="ml-4">
-                                <x-h5>
-                                    Countdown Timer
-                                </x-h5>
-                                <x-p-sm>
-                                    Add a countdown timer for your specified DateTime instance. Modify the look and feel using Blade's power slotted components feature.
-                                </x-p-sm>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="mt-10">
-                        <div class="flex">
-                            <div class="flex-shrink-0">
-                                <div class="flex items-center justify-center h-12 w-12 rounded-md bg-scarlet-500 text-white">
-                                    <a href="{{ route('docs', 'easy-mde') }}">
-                                        <x-heroicon-o-pencil-alt class="h-6 w-6" />
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="ml-4">
-                                <x-h5>
-                                    Wysiwyg
-                                </x-h5>
-                                <x-p-sm>
-                                    Want a rich text editor or a Markdown editor? We've got you covered. Blade UI Kit ships with components for the Trix and EasyMDE editors.
-                                </x-p-sm>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="mt-10">
-                        <div class="flex">
-                            <div class="flex-shrink-0">
-                                <div class="flex items-center justify-center h-12 w-12 rounded-md bg-scarlet-500 text-white">
-                                    <a href="{{ route('docs', 'mapbox') }}">
-                                        <x-heroicon-o-location-marker class="h-6 w-6" />
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="ml-4">
-                                <x-h5>
-                                    Mapbox
-                                </x-h5>
-                                <x-p-sm>
-                                    Blade UI Kit comes with a map component out of the box (see what we did there?). Easily integrate a map into your app and add some markers to it.
-                                </x-p-sm>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-
-                <div class="mt-6 sm:mt-12 text-center">
-                    <x-buttons.secondary :href="route('docs')">
-                        And many more
-                        <x-heroicon-s-arrow-right class="ml-2 h-4 w-4" />
-                    </x-buttons.secondary>
-                </div>
+            <div class="relative mt-4 -mx-4 lg:mt-0 px-4">
+                <x-snippet name="effects" />
             </div>
 
-            <div class="mt-10 -mx-4 relative lg:mt-0 px-4">
-                <x-snippet name="features" />
+            <div class="relative mt-4 -mx-4 lg:mt-0 px-4">
+                <x-snippet name="secondeffects" />
             </div>
         </div>
 
@@ -101,7 +35,7 @@
             <rect width="404" height="784" fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)" />
         </svg>
 
-        <div class="relative mt-12 sm:mt-16 lg:mt-24">
+        {{-- <div class="relative mt-12 sm:mt-16 lg:mt-24">
             <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-12 lg:items-center">
                 <div class="lg:col-start-2">
                     <x-h4>
@@ -154,6 +88,6 @@
                     <x-snippet name="extend" />
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
 </div>

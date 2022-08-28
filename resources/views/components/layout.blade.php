@@ -1,8 +1,8 @@
-<x-html class="font-sans border-t-8 border-scarlet-500" :title="isset($title) ? $title . ' - ' . config('app.name') : ''">
+<x-html class="font-sans border-t-8 border-blue-500" :title="isset($title) ? $title . ' - ' . config('app.name') : ''">
     <x-slot name="head">
         <x-social-meta
             :title="$component->title()"
-            description="A set of renderless components to utilise in your Laravel Blade views. Built for the TALL stack. Completely open-source."
+            description="A set of media(image & video) components to utilise in your Laravel Blade views."
             :image="asset('/images/socialcard.png')"
         />
 

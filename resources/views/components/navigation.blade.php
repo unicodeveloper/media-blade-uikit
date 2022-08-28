@@ -3,8 +3,8 @@
         <nav class="relative max-w-screen-xl mx-auto flex items-center justify-between px-4 sm:px-6">
             <div class="flex items-center flex-1">
                 <div class="flex items-center justify-between w-full md:w-auto">
-                    <a href="{{ route('home') }}" aria-label="Home">
-                        <img class="h-8 w-auto sm:h-10" src="{{ asset('/images/icon.svg') }}" alt="Logo" />
+                     <a href="{{ route('home') }}" aria-label="Home">
+                        <img class="h-8 w-auto sm:h-10" src="{{ asset('/images/prosper.svg') }}" alt="Logo" />
                     </a>
                     <div class="-mr-2 flex items-center md:hidden">
                         <button @click="open = true" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out" id="main-menu" aria-label="Main menu" aria-haspopup="true">
@@ -18,9 +18,9 @@
                     <a href="{{ route('docs') }}" class="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
                         Documentation
                     </a>
-                    <a href="{{ route('blade-icons') }}" class="ml-10 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
+                  {{--   <a href="{{ route('blade-icons') }}" class="ml-10 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
                         Blade Icons
-                    </a>
+                    </a> --}}
                 </div>
             </div>
             <div class="hidden md:block text-right text-gray">

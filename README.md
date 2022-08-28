@@ -2,7 +2,7 @@
 
 ## Credits
 
-The source code for [blade-ui-kit.com](https://blade-ui-kit.com). Thanks to Dries Vints and team for this source code.
+Thanks to [Dries Vints](https://github.com/driesvints) and team for the source code of [blade-ui-kit.com](https://blade-ui-kit.com).
 
 ## Requirements
 

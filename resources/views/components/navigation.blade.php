@@ -25,13 +25,13 @@
             </div>
             <div class="hidden md:block text-right text-gray">
                 <x-a
-                    href="https://twitter.com/bladeuikit"
+                    href="https://twitter.com/cloudinary"
                     class="ml-4 font-medium transition duration-150 ease-in-out"
                 >
                     <x-entypo-twitter class="h-6 w-6 inline" />
                 </x-a>
                 <x-a
-                    href="https://github.com/blade-ui-kit"
+                    href="https://github.com/cloudinary-labs/cloudinary-laravel"
                     class="ml-4 font-medium transition duration-150 ease-in-out"
                 >
                     <x-icon-github class="h-6 w-6 inline"/>

@@ -1,7 +1,7 @@
 <div class="bg-white">
     <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
         <div class="flex justify-center md:order-2">
-            <x-a href="https://twitter.com/unicodeveloper">
+            <x-a href="https://twitter.com/cloudinary">
                 <span class="sr-only">Twitter</span>
                 <x-entypo-twitter class="h-6 w-6" />
             </x-a>

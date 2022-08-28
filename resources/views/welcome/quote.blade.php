@@ -11,35 +11,35 @@
         </svg>
 
         <div class="relative">
-            <x-p class="text-center">
+           {{--  <x-p class="text-center">
                 <img class="inline-block h-20 w-auto" src="{{ asset('/images/logo.svg') }}" alt="" />
-            </x-p>
+            </x-p> --}}
             <blockquote class="mt-8">
                 <div class="max-w-2xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
                     <p>
-                        &ldquo;I wanted to make using Blade components as simple as possible. That's why I built Blade UI Kit.&rdquo;
+                        &ldquo;I built the Cloudinary Laravel package. I love making life easier for developers, so I built the media blade UI kit to enable developers use filters and transformations in their blade views without hassle.&rdquo;
                     </p>
                 </div>
                 <footer class="mt-8">
                     <div class="md:flex md:items-center md:justify-center">
                         <div class="md:flex-shrink-0">
-                            <a href="https://twitter.com/driesvints">
-                                <x-avatar search="driesvints" provider="github" class="mx-auto h-10 w-10 rounded-full enlarge" />
+                            <a href="https://twitter.com/unicodeveloper">
+                                <x-avatar search="unicodeveloper" provider="github" class="mx-auto h-10 w-10 rounded-full enlarge" />
                             </a>
                         </div>
                         <div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
                             <div class="text-base leading-6 font-medium text-gray-900">
-                                <x-a class="font-semibold" href="https://twitter.com/driesvints">
-                                    Dries Vints
+                                <x-a class="font-semibold" href="https://twitter.com/unicodeveloper">
+                                    Prosper Otemuyiwa
                                 </x-a>
                             </div>
 
-                            <svg class="hidden md:block mx-1 h-5 w-5 text-scarlet-600" fill="currentColor" viewBox="0 0 20 20">
+                            <svg class="hidden md:block mx-1 h-5 w-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
                                 <path d="M11 0h3L9 20H6l5-20z" />
                             </svg>
 
                             <div class="text-base leading-6 font-medium text-gray-500">
-                                Developer at Laravel
+                                Open Source Engineer
                             </div>
                         </div>
                     </div>

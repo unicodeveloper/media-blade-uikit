@@ -11,7 +11,7 @@
 
         <div class="sm:text-center md:max-w-2xl md:mx-auto">
             <x-h4>
-                Featured Image & Video components
+                Featured Image Component Transformations
             </x-h4>
         </div>
 

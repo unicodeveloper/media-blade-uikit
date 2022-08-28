@@ -1,13 +1,8 @@
-# blade-ui-kit.com
+# media-blade-uikit.com
 
-<a href="https://github.com/blade-ui-kit/blade-ui-kit.com/actions?query=workflow%3ATests">
-    <img src="https://github.com/blade-ui-kit/blade-ui-kit.com/workflows/Tests/badge.svg" alt="Tests">
-</a>
-<a href="https://github.styleci.io/repos/279074209">
-    <img src="https://github.styleci.io/repos/279074209/shield?style=flat" alt="Code Style">
-</a>
+## Credits
 
-The source code for [blade-ui-kit.com](https://blade-ui-kit.com)
+The source code for [blade-ui-kit.com](https://blade-ui-kit.com). Thanks to Dries Vints and team for this source code.
 
 ## Requirements
 
@@ -19,7 +14,7 @@ The following tools are required in order to start the installation.
 
 ## Installation
 
-1. Clone this repository locally with `git clone git@github.com:blade-ui-kit/blade-ui-kit.com.git blade-ui-kit.com`
+1. Clone this repository locally with `git clone git@github.com/unicodeveloper/media-blade-uikit.git media-blade-uikit.com`
 2. Copy the `.env.example` file to `.env`
 3. Install the PHP dependencies with `composer install` 
 4. Generate a new app key with `php artisan key:generate`

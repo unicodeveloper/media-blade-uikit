@@ -1,0 +1,161 @@
+[
+    {
+        "pages": [
+            {
+                "file": "introduction",
+                "icon": "heroicon-o-book-open"
+            },
+            {
+                "file": "tooling",
+                "icon": "heroicon-o-puzzle"
+            },
+            {
+                "file": "community",
+                "icon": "heroicon-o-chat-alt-2"
+            }
+        ]
+    },
+    {
+        "title": "Getting Started",
+        "pages": [
+            "installation",
+            {
+                "file": "release-notes",
+                "link": "https://github.com/blade-ui-kit/blade-ui-kit/releases"
+            },
+            "upgrade-guide",
+            "contribution-guide",
+            "customization"
+        ]
+    },
+    {
+        "title": "Resize",
+        "pages": [
+            "scale",
+            "limit-fit",
+            "fill",
+            "fit",
+            "crop",
+            "thumbnail",
+            "pad",
+            "limit-fill",
+            "limit-pad",
+            "minimum-fit",
+            "minimum-pad"
+        ]
+    },
+    {
+        "title": "Adjust",
+        "pages": [
+            "improve",
+            "unsharp-mask",
+            "saturation",
+            "contrast",
+            "brightness",
+            "gamma"
+        ]
+    },
+    {
+        "title": "Effect",
+        "pages": [
+            "colorize",
+            "blur",
+            "trim",
+            "grayscale",
+            "blackwhite",
+            "sepia",
+            "redeye",
+            "negate",
+            "oil-paint",
+            "vignette",
+            "simulate-colorblind",
+            "pixelate",
+            "shadow"
+        ]
+    },
+    {
+        "title": "Buttons",
+        "pages": [
+            "form-button",
+            "logout"
+        ]
+    },
+    {
+        "title": "DateTime",
+        "pages": [
+            "carbon",
+            "countdown"
+        ]
+    },
+    {
+        "title": "Editors",
+        "pages": [
+            {
+                "name": "Easy MDE",
+                "file": "easy-mde"
+            },
+            "trix"
+        ]
+    },
+    {
+        "title": "Forms",
+        "pages": [
+            "error",
+            "form",
+            "label"
+        ]
+    },
+    {
+        "title": "Inputs",
+        "pages": [
+            "checkbox",
+            "color-picker",
+            "email",
+            "flatpickr",
+            "input",
+            "password",
+            "pikaday",
+            "textarea"
+        ]
+    },
+    {
+        "title": "Layouts",
+        "pages": [
+            {
+                "name": "HTML",
+                "file": "html"
+            },
+            "social-meta"
+        ]
+    },
+    {
+        "title": "Maps",
+        "pages": [
+            "mapbox"
+        ]
+    },
+    {
+        "title": "Markdown",
+        "pages": [
+            "markdown",
+            {
+                "name": "ToC",
+                "file": "toc"
+            }
+        ]
+    },
+    {
+        "title": "Navigation",
+        "pages": [
+            "dropdown"
+        ]
+    },
+    {
+        "title": "Support",
+        "pages": [
+            "avatar",
+            "cron",
+            "unsplash"
+        ]
+    }
+]

@@ -39,7 +39,7 @@
                             </svg>
 
                             <div class="text-base leading-6 font-medium text-gray-500">
-                                Open Source Engineer
+                                Open Source Advocate & Engineer at <x-a href="https://ouredenlife.com" target="_blank">Eden Life</x-a>
                             </div>
                         </div>
                     </div>

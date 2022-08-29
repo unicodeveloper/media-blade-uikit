@@ -110,26 +110,3 @@ Cloudinary relies on its own JavaScript library to initiate the Cloudinary Uploa
 ```
 
 ***Note:** ONLY LOAD THIS IF YOU HAVE DECIDED TO USE THE UPLOAD WIDGET. IF YOU ARE USING THIS PACKAGE FOR A LARAVEL API BACKEND, YOU DON'T NEED TO DO THIS!*
-
-
-### Prefixing
-
-Components from this library might conflict with other ones from different libraries, or components from your own app. To prevent this, you can opt to add a prefix to the Blade UI Kit components. You can do this by setting the `prefix` option in the config file:
-
-```php
-<?php
-
-return [
-    ...
-    'prefix' => 'buk',
-    ...
-];
-```
-
-Now all components can be referenced as usual, but with the prefix before their name:
-
-```html
-<x-buk-easy-mde name="about" />
-```
-
-For obvious reasons, the docs don't use any prefix in their code examples. So keep this in mind when setting a prefix and copy/pasting code snippets.

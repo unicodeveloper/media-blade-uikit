@@ -48,6 +48,8 @@ This will output the following:
 
 <img src="https://res.cloudinary.com/unicodeveloper/image/upload/v1661754895/multiple_uploads_widget.png">
 
+All the files will be immediately upload to Cloudinary. Then, you can retrieve and display them in your app via the `x-cld-image` and `x-cld-video` components.
+
 Take a look at an example usage of the `x-cld-image` component.
 
 ```html

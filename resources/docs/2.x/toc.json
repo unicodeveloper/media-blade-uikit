@@ -39,9 +39,9 @@
         "title": "Resize",
         "pages": [
             "scale",
+            "fit",
             "limit-fit",
             "fill",
-            "fit",
             "crop",
             "thumbnail",
             "pad",

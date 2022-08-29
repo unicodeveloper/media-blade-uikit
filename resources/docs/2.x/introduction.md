@@ -6,6 +6,47 @@ The components are renderless, meaning they ship without any styling applied to 
 
 The Kit ships with `x-cld-upload-button`, `x-cld-image`, and `x-cld-video` Blade components out of the box.
 
+Take a look at an example usage of the `x-cld-upload-button` component.
+
+- Add the `@cloudinaryJS` directive in the app's head section like so:
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        @cloudinaryJS
+    </head>
+</html>
+```
+
+- Next, use the `x-cld-upload-button` component.
+
+```html
+<body>
+    <x-cld-upload-button>
+        Upload Files
+    </x-cld-upload-button>
+</body>
+```
+
+By default, it will appear this way below. Renderless. No style.
+
+<img src="https://res.cloudinary.com/unicodeveloper/image/upload/v1661754668/renderless_upload_files.png">
+
+Let's style it a bit with TailwindCSS and the `class` attribute.
+
+```html
+<x-cld-upload-button class="mb-5 inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg">Upload Files</x-cld-upload-button>
+```
+
+This will output the following:
+
+<img src="https://res.cloudinary.com/unicodeveloper/image/upload/v1661754371/upload_files.png">
+
+
+- Click on the `Upload Files` button. An upload widget will come up that ships with an option to upload single and multiple files from multiple sources. Now, drag and drop or browse to upload as many files as you want.
+
+<img src="https://res.cloudinary.com/unicodeveloper/image/upload/v1661754895/multiple_uploads_widget.png">
 
 Take a look at an example usage of the `x-cld-image` component.
 

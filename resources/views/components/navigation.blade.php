@@ -45,7 +45,7 @@
                     <div class="px-5 pt-4 flex items-center justify-between">
                         <div>
                             <a href="{{ route('home') }}">
-                                <img class="h-8 w-auto" src="{{ asset('/images/icon.svg') }}" alt="" />
+                                <img class="h-8 w-auto sm:h-10" src="{{ asset('/images/prosper.svg') }}" alt="Logo" />
                             </a>
                         </div>
                         <div class="-mr-2">
@@ -60,19 +60,19 @@
                         <a href="{{ route('docs') }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">
                             Documentation
                         </a>
-                        <a href="{{ route('blade-icons') }}" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">
+                      {{--   <a href="{{ route('blade-icons') }}" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">
                             Blade Icons
-                        </a>
+                        </a> --}}
                     </div>
                     <div class="bg-gray-50 text-center">
                         <x-a
-                            href="https://twitter.com/bladeuikit"
+                            href="https://twitter.com/cloudinary"
                             class="inline-block px-5 py-3 text-center font-medium bg-gray-50 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
                         >
                             <x-entypo-twitter class="h-6 w-6 inline"/>
                         </x-a>
                         <x-a
-                            href="https://github.com/blade-ui-kit"
+                            href="https://github.com/cloudinary-labs/cloudinary-laravel"
                             class="inline-block px-5 py-3 text-center font-medium bg-gray-50 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
                         >
                             <x-icon-github class="h-6 w-6 inline"/>

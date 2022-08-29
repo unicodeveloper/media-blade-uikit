@@ -22,11 +22,6 @@
         @livewireStyles
         @bukStyles
 
-        @production
-            <!-- Fathom - beautiful, simple website analytics -->
-            <script src="https://boom.laravel.io/script.js" site="SVSHYYIX" defer></script>
-            <!-- / Fathom -->
-        @endproduction
     </x-slot>
 
     {{ $slot }}

@@ -1,7 +1,7 @@
 <x-html class="font-sans border-t-8 border-blue-500" :title="isset($title) ? $title . ' - ' . config('app.name') : ''">
     <x-slot name="head">
         <x-social-meta
-            :title="$component->title()"
+            title="Laravel Media Blade UI Kit"
             description="A set of media(image & video) components to utilise in your Laravel Blade views."
             :image="asset('/images/socialmetacard.png')"
         />

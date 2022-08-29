@@ -3,7 +3,7 @@
         <x-social-meta
             :title="$component->title()"
             description="A set of media(image & video) components to utilise in your Laravel Blade views."
-            :image="asset('/images/socialcard.png')"
+            :image="asset('/images/socialmetacard.png')"
         />
 
         <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('/apple-touch-icon.png') }}">

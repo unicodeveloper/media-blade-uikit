@@ -17,7 +17,7 @@
 
         <div class="relative mt-15 sm:mt-16 lg:mt-10">
             <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-12 lg:items-center">
-                <div class="lg:col-start-2">
+                <div class="lg:col-start-2 mt-4">
                     <x-h4>
                         Cartoonification
                     </x-h4>

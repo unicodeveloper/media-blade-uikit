@@ -55,8 +55,6 @@
             </div>
         </div>
 
-
-
         <div class="relative mt-4 lg:mt-4 lg:items-center">
             <div class="relative mt-4 -mx-4 lg:mt-0 px-4">
                 <x-snippet name="secondeffects" />

@@ -46,7 +46,7 @@
                         With Media Blade UI Kit, you can grayscale an asset by adding an attribute <strong>grayscale</strong> to the <strong>x-cld-image</strong> component.
                     </x-p>
 
-                    <x-snippet name="thirdeffects" />
+                    <x-snippet name="grayeffects" />
                 </div>
 
                 <div class="mt-10 -mx-4 relative lg:mt-0 px-4 lg:col-start-1">

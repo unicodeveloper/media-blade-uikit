@@ -1,3 +1,3 @@
 ```html
-<x-cld-image public-id="lady" grayscale />
+<x-cld-image public-id="lady" cartoonify />
 ```

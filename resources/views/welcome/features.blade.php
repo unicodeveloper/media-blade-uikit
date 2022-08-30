@@ -15,12 +15,49 @@
             </x-h4>
         </div>
 
-        <div class="relative mt-4 lg:mt-4 lg:items-center">
+        <div class="relative mt-15 sm:mt-16 lg:mt-10">
+            <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-12 lg:items-center">
+                <div class="lg:col-start-2">
+                    <x-h4>
+                        Cartoonification
+                    </x-h4>
 
-            <div class="relative mt-4 -mx-4 lg:mt-0 px-4">
-                <x-snippet name="effects" />
+                    <x-p>
+                        With Media Blade UI Kit, you can cartoonify an asset as seen here by adding an attribute <strong>cartoonify</strong> to the <strong>x-cld-image</strong> component.
+                    </x-p>
+
+                    <x-snippet name="thirdeffects" />
+                </div>
+
+                <div class="mt-10 -mx-4 relative lg:mt-0 px-4 lg:col-start-1">
+                    <x-cld-image public-id="lady" cartoonify width="900" height="900"></x-cld-image>
+                </div>
             </div>
+        </div>
 
+        <div class="relative mt-12 sm:mt-16 lg:mt-24">
+            <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-12 lg:items-center">
+                <div class="lg:col-start-2">
+                    <x-h4>
+                        Grayscale
+                    </x-h4>
+
+                    <x-p>
+                        With Media Blade UI Kit, you can grayscale an asset by adding an attribute <strong>grayscale</strong> to the <strong>x-cld-image</strong> component.
+                    </x-p>
+
+                    <x-snippet name="thirdeffects" />
+                </div>
+
+                <div class="mt-10 -mx-4 relative lg:mt-0 px-4 lg:col-start-1">
+                    <x-cld-image public-id="food" grayscale width="900" height="900"></x-cld-image>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="relative mt-4 lg:mt-4 lg:items-center">
             <div class="relative mt-4 -mx-4 lg:mt-0 px-4">
                 <x-snippet name="secondeffects" />
             </div>
@@ -35,59 +72,6 @@
             <rect width="404" height="784" fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)" />
         </svg>
 
-        {{-- <div class="relative mt-12 sm:mt-16 lg:mt-24">
-            <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-12 lg:items-center">
-                <div class="lg:col-start-2">
-                    <x-h4>
-                        You're in full control
-                    </x-h4>
 
-                    <x-p>
-                        Blade UI Kit aims at providing the best possible developer experience. We want you to be in control. Publish, extend and modify all components at will.
-                    </x-p>
-
-                    <ul class="mt-10">
-                        <li>
-                            <div class="flex">
-                                <div class="flex-shrink-0">
-                                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-scarlet-500 text-white">
-                                        <x-heroicon-o-code class="h-6 w-6" />
-                                    </div>
-                                </div>
-                                <div class="ml-4">
-                                    <x-h5>
-                                        Plug-and-play
-                                    </x-h5>
-                                    <x-p-sm>
-                                        Install the package and immediately start using the components. Most components come ready out-of-the box, saving you time figuring out how to install them.
-                                    </x-p-sm>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="mt-10">
-                            <div class="flex">
-                                <div class="flex-shrink-0">
-                                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-scarlet-500 text-white">
-                                        <x-heroicon-o-share class="h-6 w-6" />
-                                    </div>
-                                </div>
-                                <div class="ml-4">
-                                    <x-h5>
-                                        Extend or publish
-                                    </x-h5>
-                                    <x-p-sm>
-                                        Component classes can be easily extended and all of the component views can be published, allowing you to go pretty far in terms of customizing them.
-                                    </x-p-sm>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="mt-10 -mx-4 relative lg:mt-0 px-4 lg:col-start-1">
-                    <x-snippet name="extend" />
-                </div>
-            </div>
-        </div> --}}
     </div>
 </div>

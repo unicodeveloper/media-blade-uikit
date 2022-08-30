@@ -13,3 +13,7 @@ If you'd like to contribute, head to [our GitHub repository](https://github.com/
 
 If you're looking for resources on using Cloudinary, you can check out the [Awesome Cloudinary collection](https://github.com/Developerayo/awesome-cloudinary) repo.
 
+
+## MediaJAMS
+
+If you're looking for resources to learn media with easy to follow guides and examples, please check out [mediajams.dev](https://mediajams.dev).

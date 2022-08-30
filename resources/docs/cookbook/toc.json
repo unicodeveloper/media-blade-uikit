@@ -1,0 +1,61 @@
+[
+    {
+        "pages": [
+            {
+                "file": "introduction",
+                "icon": "heroicon-o-book-open"
+            }
+        ]
+    },
+    {
+        "title": "Getting Started",
+        "pages": [
+            "installation"
+        ]
+    },
+    {
+        "title": "Effect",
+        "pages": [
+            "colorize",
+            "blur",
+            "trim",
+            "grayscale",
+            "blackwhite",
+            "sepia",
+            "redeye",
+            "negate",
+            "oil-paint",
+            "vignette",
+            "simulate-colorblind",
+            "pixelate",
+            "shadow"
+        ]
+    },
+    {
+        "title": "Resize",
+        "pages": [
+            "scale",
+            "fit",
+            "limit-fit",
+            "fill",
+            "crop",
+            "thumbnail",
+            "pad",
+            "limit-fill",
+            "limit-pad",
+            "minimum-fit",
+            "minimum-pad"
+        ]
+    },
+    {
+        "title": "Adjust",
+        "pages": [
+            "improve",
+            "unsharp-mask",
+            "saturation",
+            "contrast",
+            "brightness",
+            "gamma"
+        ]
+    }
+]

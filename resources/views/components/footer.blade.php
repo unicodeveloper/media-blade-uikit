@@ -12,7 +12,7 @@
         </div>
         <div class="mt-8 md:mt-0 md:order-1">
             <p class="text-center text-base leading-6 text-gray-400">
-                &copy; {{ date('Y') }} <x-a href="https://github.com/unicodeveloper">Prosper Otemuyiwa.</x-a> Massive Inspiration from <x-a href="https://blade-ui-kit.com/">Blade UI Kit Website.</x-a>
+                &copy; {{ date('Y') }} <x-a href="https://github.com/unicodeveloper">Prosper Otemuyiwa.</x-a>
             </p>
         </div>
     </div>

@@ -1,6 +1,6 @@
-# media-blade-uikit.com
+# media-blade-uikit.org
 
-Source code for [media-blade-uikit.com](https://media-blade-uikit.com).
+Source code for [media-blade-uikit.org](https://media-blade-uikit.org).
 
 ## Credits
 
